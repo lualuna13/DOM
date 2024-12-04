@@ -50,4 +50,3 @@ console.log(botanas[2].classList.contains("bg-ligthblue"));
 */
 botanas[3].classList.remove("bg-ligthpink");
 botanas[3].classList.remove("botana");
-//Terminamos clases con Javascript
