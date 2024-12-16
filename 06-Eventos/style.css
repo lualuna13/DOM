@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  color: lightsalmon;
+  background-color: darkmagenta;
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 1rem;
+  color: darkmagenta;
+  cursor: pointer;
+  background-color: pink;
+  box-shadow: 0px 0px 0px 0px black;
+  transition: all .300 ease;
+}
+
+button:hover {
+  background-color: red;
+  box-shadow: 0px 0px 0px 0px black;
+}
