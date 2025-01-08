@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;  /* 100% viewport height */
+  color: seashell;
+  background-color: darkorchid;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.button {
+  padding: 12px, 24px;
+  border-radius: 48px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 60;
+  color: darkorchid;
+  background-color: rgb(253, 101, 126);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+background-color: rgb(255, 212, 226);
+scale: 1.1;
+transition: all 0.3s ease;
+}
+
+.button:active {
+  color: azure;
+  background-color: black;
+  scale: 1;
+  transition: all 0.3s ease;
+}
