@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 100px;
+  width: 960px;
   height: 960px;
   background-color: blueviolet;
   border: 1px solid lightcoral;
